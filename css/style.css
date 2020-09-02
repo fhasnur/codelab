@@ -1,0 +1,272 @@
+/* Navbar */
+.nav {
+    background-color: rgb(0, 102, 255);
+}
+
+.brand-logo {
+    font-family: teko, sans-serif;
+    font-size: 30px !important;
+}
+
+.brand-logo:hover {
+    text-shadow: 0 0 5px white;
+}
+
+.topnav li {
+    text-transform: uppercase;
+}
+
+/* Content */
+.jumbotron {
+    line-height: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    font-size: 35px;
+}
+
+.jumbotron span {
+    font-weight: 600;
+}
+
+.jumbotron span:hover {
+    text-shadow: 0 0 10px white;
+}
+
+.body-content {
+    position: relative;
+    z-index: 1;
+}
+
+/* Button */
+.btn-new {
+    background-color: rgb(0, 102, 255) !important;
+    border-radius: 40px !important;
+    margin-top: -30px;
+}
+
+.btn-new:hover {
+    text-shadow: 0 0 5px white;
+}
+
+.card-action {
+    text-align: center;
+    margin-left: 20px;
+}
+
+/* Images */
+.bg-images {
+    width: 100%;
+    max-height: 1500px;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.images {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.images2 {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+/* About */
+.about {
+    margin-bottom: 30px;
+}
+
+.about img {
+    margin-bottom: 40px;
+}
+
+/* Path */
+.path h2 {
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.path h5:hover {
+    text-decoration: underline;
+}
+
+/* Judul */
+.supported h2,
+.tutorial h2,
+.about h2,
+.contact h2,
+.reviews h2 {
+    font-size: 35px;
+}
+
+.supported h2 {
+    line-height: 70px;
+    margin-bottom: -5px;
+    position: relative;
+}
+
+.supported img {
+    width: 100%;
+    height: 190px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.about h2 {
+    margin-bottom: 50px;
+}
+
+.about img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.reviews h2 {
+    margin-top: 50px;
+}
+
+/* Text */
+.text-align {
+    text-align: center;
+}
+
+.avatar span {
+    font-weight: 500;
+}
+
+.avatar p {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+
+    .topnav li {
+        text-transform: uppercase;
+    }
+
+    /* Content */
+    .jumbotron {
+        line-height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .jumbotron span {
+        font-weight: 600;
+    }
+
+    .jumbotron h1 {
+        margin-top: 80px;
+        font-size: 60px;
+    }
+
+    .jumbotron span:hover {
+        text-shadow: 0 0 10px white;
+    }
+
+    .body-content {
+        position: relative;
+        z-index: 1;
+    }
+
+    /* Button */
+    .btn-new {
+        background-color: rgb(0, 102, 255) !important;
+        border-radius: 40px !important;
+        margin-top: -65px;
+    }
+
+    .btn-new:hover {
+        text-shadow: 0 0 5px white;
+    }
+
+    .brand-logo {
+        font-family: teko, sans-serif;
+        font-size: 40px !important;
+    }
+
+    .card-action a:hover {
+        text-decoration: underline;
+    }
+
+    /* Images */
+    .bg-images {
+        width: 100%;
+        margin-top: -50px;
+        max-height: 450px;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    /* Path */
+    .path h2 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 50px;
+    }
+
+    /* Judul */
+    .supported h2,
+    .tutorial h2,
+    .about h2,
+    .contact h2,
+    .reviews h2 {
+        font-size: 50px;
+    }
+
+    .reviews h2 {
+        margin-bottom: 50px;
+    }
+
+
+    /* Supported */
+    .supported img {
+        margin-top: 50px;
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+    }
+
+    .supported h2 {
+        line-height: 220px;
+        position: relative;
+    }
+
+    .supported p {
+        font-size: 25px;
+    }
+
+    .reviews h2 {
+        margin-top: 100px;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 60px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+}
